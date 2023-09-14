@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Stopwatch App</title>
+    <link 
+      rel="icon" 
+      href="https://img.icons8.com/3d-fluency/94/globe-africa.png" 
+      width="94" 
+      height="94" 
+      alt="globe-africa"
+      type="image/x-icon"/>
+    <link rel="stylesheet" href="scss/styles.scss" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <link 
+      rel="stylesheet" 
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="stopwatch">
+        <h1 class="stopwatch-heading">Stopwatch</h1>
+        <div id="timer" class="stopwatch-time">
+          <span class="digit" id="hr">00</span>
+          <span class="txt">Hr</span>
+          <span class="digit" id="min">00</span>
+          <span class="txt">Min</span>
+          <span class="digit" id="sec">00</span>
+          <span class="txt">Sec</span>
+          <span class="digit" id="count">00</span>
+        </div>
+        <div class="stopwatch-controls">
+          <button id="btnStart"
+            class="btn btn-success rounded-pill px-3">
+            <i class="bi-play-btn"> 
+              Start
+            </i>          
+          </button>
+          <button id="btnStop" 
+            class="btn btn-danger rounded-pill px-3">
+            <i class="bi-stop-btn"> 
+              Stop
+            </i>
+          </button>
+          <button id="btnReset" 
+            class="btn btn-warning rounded-pill px-3">
+            <i class="bi-arrow-clockwise"> 
+              Reset
+            </i>
+          </button>    
+      </div>
+    </div>
+    <script src="js/main.js" async defer></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
