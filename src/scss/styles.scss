@@ -1,8 +1,7 @@
 @import 'bootstrap/scss/bootstrap';
 
 body {
-  background: beige;
-  color: blanchedalmond;
+  background: rgb(163, 138, 138);
 }
 
 .container {
@@ -13,16 +12,21 @@ body {
   min-height: 100vh;
 }
 
-.stopwatch {
-  background: #000;
-  border-radius: 30%;
-  box-shadow: 0 0 0 4px #f5f5f5, 0 0 0 5px #ddd, 0 0 0 6px #ccc, 0 0 0 7px #bbb,
-    0 0 0 8px #aaa;
-  padding: 1rem;
-  position: relative;
-  width: 300px;
-  height: 300px;
+button {
+  padding: 5%;
+  margin: 5%;
 }
+
+// .stopwatch {
+//   background: #000;
+//   border-radius: 30%;
+//   box-shadow: 0 0 0 4px #f5f5f5, 0 0 0 5px #ddd, 0 0 0 6px #ccc, 0 0 0 7px #bbb,
+//     0 0 0 8px #aaa;
+//   padding: 1rem;
+//   position: relative;
+//   width: 300px;
+//   height: 300px;
+// }
 
 // .bi::before {
 //   display: inline-block;

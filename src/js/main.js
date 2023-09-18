@@ -13,10 +13,10 @@ const timer = document.getElementById('timer');
 // const sec = document.getElementById('sec');
 // const count = document.getElementById('count');
 
-let hr = 00;
-let min = 00;
-let sec = 00;
-let count = 00;
+let hr = '00';
+let min = '00';
+let sec = '00';
+let count = '00';
 
 function startTimer() {
   alert('start');
@@ -42,20 +42,22 @@ function startTimer() {
 }
 
 function stopTimer() {
-  btnStart.classList.remove('d-none');
-  btnStop.classList.add('d-none');
-  btnReset.classList.remove('d-none');
-  timer.classList.add('text-muted');
-  timer.classList.remove('text-dark');
+  alert('reset');
+  // btnStart.classList.remove('d-none');
+  // btnStop.classList.add('d-none');
+  // btnReset.classList.remove('d-none');
+  // timer.classList.add('text-muted');
+  // timer.classList.remove('text-dark');
 }
 
 function resetTimer() {
-  btnStart.classList.remove('d-none');
-  btnStop.classList.add('d-none');
-  btnReset.classList.add('d-none');
-  timer.classList.add('text-muted');
-  timer.classList.remove('text-dark');
-  timer.innerHTML = '00.00.00';
+  alert('reset');
+  // btnStart.classList.remove('d-none');
+  // btnStop.classList.add('d-none');
+  // btnReset.classList.add('d-none');
+  // timer.classList.add('text-muted');
+  // timer.classList.remove('text-dark');
+  // timer.innerHTML = '00.00.00';
 }
 
 btnStart.addEventListener('click', startTimer);
